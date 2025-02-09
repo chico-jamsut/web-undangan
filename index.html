@@ -38,7 +38,7 @@
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background-color: rgb(250, 208, 214);
+      background-color: rgba(255, 255, 255, 0.8);
       border-radius: 50%;
       width: 50px;
       height: 50px;
@@ -51,7 +51,7 @@
     }
 
     .music-btn:hover {
-      background-color: rgb(123, 195, 246);
+      background-color: rgba(255, 255, 255, 1);
     }
   </style>
 </head>
@@ -76,15 +76,15 @@
   <div class="flex flex-col md:flex-row bg-white shadow-2xl min-h-screen w-full max-w-7xl mx-auto overflow-hidden islamic-pattern">
     
     <!-- Left Section (Hidden on Mobile) -->
-    <div class="relative hidden md:block md:w-1/2 h-96 md:h-auto bg-gradient-to-tr from-emerald-600 to-emerald-600">
+    <div class="relative hidden md:block md:w-1/2 h-96 md:h-auto bg-gradient-to-tr from-blue-900 to-blue-600">
       <div class="absolute inset-0 bg-black/30 flex items-end p-8">
         <div class="space-y-4 text-white">
           <h2 class="text-4xl font-bold [text-shadow:2px_2px_4px_rgba(0,0,0,0.5)]">
-            <span class="text-yellow-400">Akasha</span> Giftearly
+            <span class="text-yellow-400">Chico</span> Arjuna Nurgoho
           </h2>
           <div class="flex items-center space-x-4">
-            <div class="w-12 h-px bg-lime-200"></div>
-            <p class="font-light italic"></p>
+            <div class="w-12 h-px bg-yellow-400"></div>
+            <p class="font-light italic">Da'i Muda</p>
           </div>
         </div>
       </div>
@@ -95,12 +95,11 @@
       
       <!-- Initial Content -->
       <div id="initial-content" class="flex-1 flex flex-col items-center justify-center p-8 space-y-8 bg-white transition-all duration-500">
-        <div class="relative w-40 h-40 bg-lime-100 rounded-full flex items-center justify-center">
+        <div class="relative w-40 h-40 bg-yellow-400/10 rounded-full flex items-center justify-center">
           <div class="absolute inset-0 border-2 border-yellow-400 rounded-full animate-ping"></div>
-          <svg class="w-24 h-24 text-yellow-400" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path d="M12 2a10 10 0 1 0 10 10c-5.52 3.66-12.67-.74-10-10z"/>
+          <svg class="w-24 h-24 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
           </svg>
-          
         </div>
 
         <h1 class="text-6xl font-[Arabic] text-gray-800 bg-gradient-to-r from-yellow-600 to-blue-600 bg-clip-text text-transparent">
@@ -112,7 +111,7 @@
           <br>(HR. Muslim)
         </p>
 
-        <button id="open-invitation" class="px-8 py-3 bg-gradient-to-r from-emerald-600 to-emerald-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center group">
+        <button id="open-invitation" class="px-8 py-3 bg-gradient-to-r from-yellow-600 to-yellow-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center group">
           <span>Buka Undangan</span>
           <svg class="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -133,27 +132,27 @@
           <!-- Event Details -->
           <div class="bg-white rounded-2xl shadow-lg p-8 space-y-6 fade-in">
             <div class="text-center space-y-2">
-              <h3 class="text-2xl font-semibold text-black">الدعاء المستجاب</h3>
-              <p class="text-gray-600">Keutamaan Doa</p>
+              <h3 class="text-2xl font-semibold text-gray-800">اَلْحَدِيْثُ</h3>
+              <p class="text-gray-600">Tentang Keesaan Allah</p>
             </div>
 
             <div class="space-y-4 text-center">
-              <div class="text-black text-2xl">
+              <div class="text-yellow-600 text-2xl">
                 <span class="font-[Arabic]">السَّلَامُ عَلَيْكُمْ</span>
               </div>
               <p class="text-gray-700 leading-relaxed">
                 Insya Allah akan dilaksanakan pada:
               </p>
               <div class="bg-blue-50 p-4 rounded-lg">
-                <p class="text-xl font-semibold text-emerald-600">Sabtu, 15 Februari 2025</p>
-                <p class="text-black">09.00 WIB - Selesai</p>
-                <p class="text-black mt-2">SMK Infokom, Bogor</p>
+                <p class="text-xl font-semibold text-blue-800">Sabtu, 10 Februari 2025</p>
+                <p class="text-gray-700">09.00 WIB - Selesai</p>
+                <p class="text-gray-700 mt-2">SMK Infokom, Bogor</p>
               </div>
             </div>
           </div>
 
           <!-- Ayat Section -->
-          <div class="bg-emerald-600 text-white rounded-2xl shadow-xl p-8 space-y-6 fade-in">
+          <div class="bg-blue-900 text-white rounded-2xl shadow-xl p-8 space-y-6 fade-in">
             <div class="text-center space-y-4">
               <h3 class="text-3xl font-[Arabic]">التَّوْحِيد</h3>
               <div class="w-16 h-1 bg-yellow-400 mx-auto rounded-full"></div>
@@ -161,8 +160,8 @@
 
             <div class="space-y-6">
               <div class="text-lg leading-relaxed text-center italic">
-                "Berdoalah kepada-Ku, niscaya akan Kuperkenankan bagimu"
-                <div class="mt-4 text-yellow-300 font-medium">QS. Al-Mukmin:60</div>
+                "Sesungguhnya Allah tidak akan mengampuni dosa syirik, dan Dia mengampuni dosa yang selain itu bagi siapa yang dikehendaki-Nya..."
+                <div class="mt-4 text-yellow-300 font-medium">QS. An-Nisa: 48</div>
               </div>
               
               <div class="text-center text-6xl text-yellow-400 animate-pulse">
@@ -181,7 +180,7 @@
               <div class="text-2xl font-[Arabic] text-gray-800">
                 وَالسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </div>
-              <p class="text-sm text-gray-600">Akasha Giftearly</p>
+              <p class="text-sm text-gray-600">Chico Arjuna Nurgoho</p>
             </div>
           </div>
         </div>
